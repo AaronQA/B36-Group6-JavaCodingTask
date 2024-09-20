@@ -3,7 +3,6 @@ package AyoubA;
 public class Finra {
 
 
-
     public static void main (String[] args) {
         printFinra();
 
@@ -11,30 +10,26 @@ public class Finra {
     }
 
 
-    public static void printFinra(){
+    public static void printFinra () {
 
-        for (int i = 1; i <=30 ; i++) {
+        for (int i = 1; i <= 30; i++) {
 
-            if (i % 5 == 0  && i % 3 == 0){
+            if (i % 5 == 0 && i % 3 == 0) {
                 System.out.print(" FINRA");
 
-            } else if (i % 5 ==0 ) {
+            } else if (i % 5 == 0) {
                 System.out.print(" RA");
 
             } else if (i % 3 == 0) {
-                System.out.print( " FIN");
+                System.out.print(" FIN");
 
-            }else
+            } else
                 System.out.print(" " + i);
 
 
         }
 
     }
-
-
-
-
 
 
 }
