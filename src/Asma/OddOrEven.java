@@ -10,9 +10,16 @@ public class OddOrEven {
         int num = sc.nextInt();
         if (num % 2 == 0) {
             System.out.println("Even");
-        }else{
+        } else {
             System.out.println("Odd");
+        }
 
+    }          // method
+    static String oddOrEven(int num) {
+        if (num % 2 == 0) {
+            return "even";
+        } else {
+            return "odd";
         }
     }
 }
