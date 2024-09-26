@@ -16,7 +16,6 @@ public class Finra {
         }
     }
 
-
     public static void printFinra(int start, int end) {
 
         if (end <= start) {
