@@ -7,10 +7,7 @@ public class Finra {
         }catch(RuntimeException e){
             e.printStackTrace();
         }
-        System.out.println("============================");
-        printFinra(0, 12);
-        System.out.println("============================");
-        printFinra(-20, 1);
+
         System.out.println("============================");
         try{
             printFinra(3, 1);
@@ -32,9 +29,7 @@ public class Finra {
             } else if (i % 3 == 0) {
                 System.out.print("FIN" + " ");
             } else if (i % 5 == 0) {
-                System.out.print("RA" + " ");
             } else {
-                System.out.print(i + " ");
             }
         }
         System.out.println();
