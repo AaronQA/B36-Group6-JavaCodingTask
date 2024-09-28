@@ -3,16 +3,17 @@ package Asma;
 public class Swap2Numbers {
     public static void main(String[] args) {
 
+
         int a = 5;
         int b = 10;
 
         System.out.println("Before swapping: a is = " + a + ", b is = " + b);
 
-        // Swap using a temporary variable
-        int temp = a; // we are assigning 5 to temp
-        a = b; // now a is 10
-        b = temp; // now b is 5
+        // Swap without using a temporary variable
+        a = a+b; // a+b= 15
+        b = a-b; // b-a= 5
+        a = a-b; // a-b= 10
 
-        System.out.println("After swapping: a = " + a + ", b = " + b);
+        System.out.println("After swapping: a is = " + a + ", b is = " + b);
     }
 }
