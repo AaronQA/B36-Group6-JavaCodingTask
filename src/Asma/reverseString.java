@@ -8,6 +8,7 @@ public class reverseString {
         System.out.println(reverse1("Testing is fun"));
         System.out.println(reverse2("Testing is fun"));
 
+
     }
 
     public static String reverse1(String word) {
@@ -26,7 +27,7 @@ public class reverseString {
     //Solution with StringBuilder for efficient string manipulation
     //In solution 1 concatenating strings in a loop using += is inefficient cuz creates a new string object each time
     public static String reverse2(String word) {
-        if (word == null || word.isBlank()) {
+        if (word == null || word.isBlank()||word.isEmpty()){
             throw new IllegalArgumentException("Input cannot be null, empty, or blank");
         }
         // Use StringBuilder to reverse the word using method
