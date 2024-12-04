@@ -5,21 +5,20 @@ import java.util.Scanner;
 public class OddOrEven {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number: ");
-        int num = sc.nextInt();
-        if (num % 2 == 0) {
-            System.out.println("Even");
-        } else {
-            System.out.println("Odd");
+        System.out.println(oddOrEven(3));
+        System.out.println(oddOrEven(3));
+        System.out.println(oddOrEven(3));
+
+    }
+
+
+    static String oddOrEven ( int num){
+            if (num % 2 == 0) {
+                return "even";
+            } else {
+                return "odd";
+            }
+
         }
 
-    }          // method
-    static String oddOrEven(int num) {
-        if (num % 2 == 0) {
-            return "even";
-        } else {
-            return "odd";
-        }
     }
-}

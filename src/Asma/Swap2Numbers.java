@@ -11,9 +11,14 @@ public class Swap2Numbers {
 
         // Swap without using a temporary variable
         a = a+b; // a+b= 15
-        b = a-b; // b-a= 5
+        b = a-b; // a-b= 5
         a = a-b; // a-b= 10
 
         System.out.println("After swapping: a is = " + a + ", b is = " + b);
     }
-}
+
+    }
+
+
+
+
