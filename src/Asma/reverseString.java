@@ -33,6 +33,7 @@ public class reverseString {
         // Use StringBuilder to reverse the word using method
         StringBuilder result = new StringBuilder(word);
         return result.reverse().toString(); //to explicitly convert the StringBuilder to a String.
+        
     }
 }
 
